@@ -6,14 +6,14 @@
 #    By: vodebunm <vodebunm@student.42heilbronn.    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/17 12:03:26 by vodebunm          #+#    #+#              #
-#    Updated: 2024/11/18 11:04:33 by vodebunm         ###   ########.fr        #
+#    Updated: 2024/11/19 17:29:32 by vodebunm         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = MyPhonebook
 
 # Source file for the project
-SRC = ClassContact.cpp ClassPhonebook.cpp main.cpp
+SRC = ClassContact.cpp ClassPhonebook.cpp main.cpp ClassHelperFunction.cpp
 
 # Object files will be derived from the source files
 OBJ = $(SRC:.cpp=.o)

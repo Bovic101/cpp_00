@@ -6,16 +6,17 @@
 /*   By: vodebunm <vodebunm@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/18 11:00:03 by vodebunm          #+#    #+#             */
-/*   Updated: 2024/11/18 14:02:24 by vodebunm         ###   ########.fr       */
+/*   Updated: 2024/11/19 17:29:16 by vodebunm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <iostream>
 #include "ClassPhonebook.hpp"
+#include "ClassPhonebook.hpp"
 
 int main()
 {
-	//PhoneBook phone;// To implement
+	PhoneBook phone;
 	std::string cmd;
 	
 	while (true)
@@ -25,11 +26,11 @@ int main()
 
 		if (cmd =="ADD")
 		{
-			/* To do phone implementation */
+			phone.add_to_contact();
 		}
 		else if (cmd == "SEARCH")
 		{
-			/* To do */
+			phone.search_for_contact();
 		}
 		else if (cmd =="EXIT")
 		{
