@@ -6,7 +6,7 @@
 /*   By: vodebunm <vodebunm@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/18 11:00:31 by vodebunm          #+#    #+#             */
-/*   Updated: 2024/11/19 11:28:17 by vodebunm         ###   ########.fr       */
+/*   Updated: 2024/11/19 18:43:40 by vodebunm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,11 +27,11 @@ class Contact{
 	
 	public:
 	//Setters
-	void Contact::setInitialName(const std::string& initialName);
-	void Contact::setLastName(const std::string& lastName);
-	void Contact::setNickName(const std::string& nickName);
-	void Contact::setMobileNumber(const std::string& mobileNumber);
-	void Contact::setDarkSecret(const std::string& secret);
+	void setInitialName(const std::string& initialName);
+	void setLastName(const std::string& lastName);
+	void setNickName(const std::string& nickName);
+	void setMobileNumber(const std::string& mobileNumber);
+	void setDarkSecret(const std::string& secret);
 
 	//Getters
 	std::string getInitialName() const;

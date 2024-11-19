@@ -6,7 +6,7 @@
 /*   By: vodebunm <vodebunm@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/18 11:00:14 by vodebunm          #+#    #+#             */
-/*   Updated: 2024/11/19 16:36:00 by vodebunm         ###   ########.fr       */
+/*   Updated: 2024/11/19 18:38:55 by vodebunm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,8 +22,8 @@ class PhoneBook{
 	Contact max_contact[8];
 	int oldest_contact;
 	int contact_counter;
-	std::string PhoneBook::str_truncate(const std::string &str) const;
-	void PhoneBook::displayContactDetails(int index) const;
+	std::string str_truncate(const std::string &str) const;
+	void displayContactDetails(int index) const;
 	
 	public:
 	PhoneBook();//to implement
